@@ -8,8 +8,8 @@ function App() {
         base: `"nav " " main"`,
         lg: `"nav nav" "aside main"`,
       }}>
-      <GridItem area={`nav`} >
-        <NavBar/>
+      <GridItem area={`nav`}>
+        <NavBar />
       </GridItem>
       <Stack hideBelow="lg">
         <GridItem area={`aside`} bg={"gold"}>
